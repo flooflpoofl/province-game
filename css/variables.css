@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+@font-face {
+    font-family: 'RoadSign';
+    src: url('../fonts/tratex.woff2') format('woff2'),
+         url('../fonts/tratex.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --clr-bg-main: #444444;
+
+    --clr-drive-button-border-active: #FF0700;
+    --clr-drive-button-bg-active: #FFC200;
+    --clr-drive-button-fg-active: #333333;
+
+    --clr-drive-button-border-correct: white;
+    --clr-drive-button-bg-correct: #0e755d;
+    --clr-drive-button-fg-correct: white;
+
+    --clr-drive-button-border-incorrect: white;
+    --clr-drive-button-bg-incorrect: #FF0700;
+    --clr-drive-button-fg-incorrect: white;
+}
